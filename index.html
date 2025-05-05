@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div#myname {
+        color: darkgreen;
+        font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="myname"></div> 
+    <div id="myprofession"></div>
+
+    <script>
+        let myname = "My name is Joysree Bhadury";
+        mynamestatus = typeof myname;
+        console.log(mynamestatus);
+
+        mynameId = document.getElementById("myname");
+        mynameId.innerHTML = myname;
+        console.log(myname);
+    </script>
+
+    <script>
+        let myprofession = "Journalist";
+        myprofessionstatus = typeof myprofession;
+        console.log(myprofessionstatus);
+
+        myprofessionId = document.getElementById("myprofession");
+        myprofessionId.innerHTML = myprofession;
+        console.log(myprofession);
+    </script>
+
+    <script>
+        let myworkingduration = 10;
+        myworkingdurationstatus = typeof myworkingduration;
+        console.log(myworkingdurationstatus);
+
+        myworkingdurationId = document.getElementById("myworkingduration");
+        myworkingdurationId.innerHTML = myworkingduration;
+        console.log(myworkingduration);
+    </script>
+
+    <script>
+        let isFriday = true;
+        console.log(typeof isFriday);
+    </script>
+
+    <script>
+        let area = "sirajgonj";
+        console.log(area);
+        locationType = typeof area;
+        console.log(locationType);
+
+        areaId = document.getElementById("area");
+        areaId.innerHTML = area;
+    </script>
+    
+
+</body>
+</html>
